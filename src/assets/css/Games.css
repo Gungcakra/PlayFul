@@ -1,0 +1,12 @@
+#bg-games{
+    background-color: #113F67;
+    height: 100vh;
+    
+}
+#game-card{
+    background-color: #F3F9FB;
+    /* transform: scale(0.7) */
+}
+#btn-next{
+    background-color: #87C0CD;
+}

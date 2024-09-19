@@ -1,0 +1,42 @@
+/* src/components/ImagePuzzleGame.css */
+.puzzle-container {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .puzzle-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust grid to 3x3 */
+    gap: 5px;
+  }
+  
+  .puzzle-tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf50; /* Bright green for kids */
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  
+  .puzzle-tile:hover {
+    background-color: #66bb6a; /* Lighter green on hover */
+  }
+  
+  .empty-tile {
+    background-color: #eee; /* Light gray for empty tile */
+    cursor: default;
+  }
+  
+  .tile-number {
+    display: none;
+  }
+      

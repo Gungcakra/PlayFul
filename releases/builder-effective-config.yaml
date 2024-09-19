@@ -1,0 +1,19 @@
+directories:
+  output: releases
+  buildResources: dist
+appId: multimedia
+win:
+  target:
+    - nsis
+files:
+  - filter:
+      - dist/**/*
+      - electron/main.cjs
+      - node_modules/**/*
+      - package.json
+nsis:
+  uninstallDisplayName: Uninstall this app
+  license: license.txt
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+electronVersion: 31.2.0

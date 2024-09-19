@@ -1,0 +1,10 @@
+#card-menu{
+    /* transition: all 0.2s; */
+    width: 8rem;
+    background-color:#226597;
+}
+#card-menu:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
